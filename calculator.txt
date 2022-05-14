@@ -1,0 +1,28 @@
+public class Calculator {
+	int a=20,b=10;
+	void Add()
+	{
+		System.out.println("Sum Is="+ (a+b));
+	}
+	void Sub()
+	{
+		System.out.println("Difference Is="+ (a-b));
+	}
+	void Mul()
+	{
+		System.out.println("Multiply Is="+ (a*b));
+	}
+	void Div()
+	{
+		System.out.println("Divide Is="+ (a/b));
+	}
+	public static void main(String[] args) {
+		Calculator cal = new Calculator();
+		cal.Add();
+		cal.Sub();
+		cal.Mul();
+		cal.Div();
+		
+	}
+
+}
