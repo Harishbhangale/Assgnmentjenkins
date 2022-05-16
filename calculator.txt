@@ -1,9 +1,15 @@
-public class Calculator {
-	
+public class Basiccommands {
+
 	public static void main(String[] args) {
-		Calculator cal = new Calculator();
-	        System.out.prntln("Hello");
+      
+		int y=11;
+		  ++y;
+		System.out.println(y);  //postfix increment operator  //11  11 
 		
+		 
+		 
+ 		
+
 	}
 
 }
